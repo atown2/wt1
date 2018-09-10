@@ -1,0 +1,6 @@
+@charset "utf-8";
+@import  '~foundation-sites/scss/settings/settings';
+@import  '~foundation-sites/scss/foundation';
+@import  '~foundation-sites/scss/util/util';
+@include foundation-everything($flex: true);
+@include foundation-xy-grid-classes;
